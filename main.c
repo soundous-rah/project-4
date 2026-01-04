@@ -246,12 +246,6 @@ int main()
              center_filled)
         digit = 8;
 
-    printf("-Density: %d cells\n", density);
-    if(top_filled == 1) printf("-Top row: FILLED\n");
-    if(middle_filled == 1) printf("-Middle row: FILLED\n");
-    if(center_filled == 0) printf("-Center: EMPTY\n");
-    if(center_col_filled == 1) printf("-Center column filled\n");
-
     if (digit != -1){
         printf("\nResult: Digit %d recognized!\n", digit);
         printf("Confidence: HIGH\n");
@@ -261,4 +255,5 @@ int main()
     }
 
     return 0;
+
 }
